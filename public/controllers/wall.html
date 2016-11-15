@@ -1,0 +1,13 @@
+<div class="wall" ng-controller="wallCtrl">
+	
+  <h2>The Wall</h2>
+	<form class='wallForm' ng-submit='displayImage()'>
+	  <input class='wallInput' ng-model='url' placeholder='Upload an image'>
+	</form>
+
+  <div ng-repeat='user in userList'>
+    <img ng-src={{user.images}}><br>
+    <p>{{user.name}}</p><br>
+  </div>
+</div>
+

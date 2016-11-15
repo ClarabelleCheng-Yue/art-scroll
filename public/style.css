@@ -1,0 +1,83 @@
+body {
+	background-color: black;
+}
+
+.topbar {
+	padding: 50px;
+	background-color: white;
+}
+
+h1 {
+	font-family: "Helvetica Neue";
+	font-size: 50px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h2 {
+	padding-left: 50px;
+	font-family: "Helvetica Neue";
+	font-size: 30px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h3 {
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+.loginContainer {
+	height: 200px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+.loginForm {
+	padding-top: 60px;
+	padding-left: 50px;
+	font-family: "Helvetica Neue";
+	font-style: bold;
+	font-size: 50px;
+	color: white;
+}
+
+.wallForm {
+	padding-left: 50px;
+	padding-bottom: 50px;
+	font-family: "Helvetica Neue";
+	font-style: bold;
+	font-size: 50px;
+}
+
+.wallInput {
+	margin: 0;
+	background-color: white;
+}
+
+input {
+	display: inline-block;
+	width: 400px;
+	height: 30px;
+	margin: 15px;
+	vertical-align: top;
+	text-align: center;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+p {
+	font-family: "Helvetica Neue";
+	color: white;
+	font-size: 20px;
+}
